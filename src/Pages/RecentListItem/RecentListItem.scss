@@ -1,0 +1,44 @@
+.recent-page {
+  // margin-top: 30rem;
+}
+
+.list-item--containerr {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.Loader-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list-item-boxx {
+  background: #f3f6fa;
+}
+
+.list-item--box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: auto;
+  background: #f3f6fa;
+  padding: 8rem 0 8rem 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .list-item--box {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .list-item--box {
+    width: 90%;
+  }
+}

@@ -1,0 +1,91 @@
+.list-item--container {
+  height: 59rem;
+  width: 41.5rem;
+  background-color: #ffffff;
+  margin-bottom: 8rem;
+  padding: 1rem;
+  border-top-right-radius: 7rem;
+  border-bottom-left-radius: 7rem;
+
+  img {
+    width: 39.5rem;
+    height: 36rem;
+    background-repeat: no-repeat;
+    border-top-right-radius: 7rem;
+    border-bottom-left-radius: 7rem;
+  }
+
+  .list-item-main--container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0rem 0rem 1rem;
+  }
+
+  .list-item--main {
+    display: flex;
+    flex-direction: column;
+    height: 12rem;
+    padding-top: 3.5rem;
+
+    h3 {
+      text-transform: capitalize;
+    }
+
+    p {
+      font-family: Rubik;
+      font-style: normal;
+      font-size: 1.4rem;
+      color: #292d2e;
+    }
+  }
+
+  .list-item--details--box {
+    display: flex;
+    flex-direction: column;
+
+    .list-item-price {
+      font-family: Rubik;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 3rem;
+      line-height: 5rem;
+      background: linear-gradient(to right, #292d2e, #525b5e);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+
+  .list-item--details {
+    display: flex;
+    justify-content: space-evenly;
+
+    p {
+      font-family: Rubik;
+      font-style: normal;
+      font-size: 1.4rem;
+      color: #292d2e;
+    }
+  }
+}
+
+.list-item--container:hover {
+  box-shadow: -4px 6px 19px 10px rgba(0, 0, 0, 0.05);
+  -webkit-animation: cardhov 1s;
+  animation: cardhov 0.25s ease-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes cardhov {
+  0% {
+    transform: translate(0px);
+    opacity: 1;
+  }
+
+  50% {
+    transform: translateY(-4px);
+  }
+
+  100% {
+    transform: translateY(-8px);
+  }
+}

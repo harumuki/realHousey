@@ -1,0 +1,169 @@
+.whole-box {
+  background-color: #f3f6faa2;
+  // background: #f3f6fa70;
+  margin-top: 30rem;
+  // padding-right: 3rem;
+  padding: 15rem 2rem 15rem 2rem;
+  border-radius: 0rem 23rem 23rem 0rem;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  margin-right: 3rem;
+}
+
+.about-us-page {
+  width: 90%;
+  margin: auto;
+
+  display: flex;
+  // justify-content: space-evenly;
+  justify-content: flex-start;
+  align-items: center;
+
+  .img-box {
+    // flex: 1;
+
+    margin-right: 12rem;
+
+    img {
+      // max-width: 80rem;
+      max-width: 40vw;
+      max-height: 70rem;
+      width: auto;
+      height: auto;
+      border-radius: 10rem 0rem 10rem 10rem;
+    }
+  }
+  .content {
+    // flex: 1;
+    // width: 80rem;
+    width: 37vw;
+    justify-self: flex-start;
+    justify-content: flex-start;
+    padding-bottom: 7.8rem;
+
+    span {
+      display: block;
+    }
+    .heading-page,
+    p {
+      font-family: Rubik;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 2.8rem;
+      line-height: 4.3rem;
+      // color: #292d2e;
+      margin-top: 3rem;
+    }
+    .heading-page {
+      color: #266cf6;
+    }
+    p {
+      color: #292d2ee7;
+    }
+  }
+}
+
+.line-height {
+  margin-top: 2.4rem;
+}
+
+/////////////////////////// Brack Point ///////////////////////////
+
+@media screen and (max-width: 1291px) {
+  .about-us-page {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+
+    .img-box {
+      margin-bottom: 8rem;
+      margin-right: 0rem;
+    }
+  }
+  .content {
+    // width: 10rem;
+    p {
+      // text-align: center
+      // width: 20rem;
+      // width: 20rem;
+    }
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .whole-box {
+    margin-right: 0rem;
+    padding: 15rem 0rem 0rem 0rem;
+  }
+
+  .about-us-page {
+    .img-box {
+      img {
+        // max-width: 30rem;
+        max-width: 80vw;
+      }
+    }
+    .content {
+      // flex: 1;
+      width: 80vw;
+    }
+  }
+  .content {
+    .heading-page {
+      display: flex;
+      justify-content: center;
+    }
+    .heading-mainn {
+      text-align: center;
+    }
+    p {
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (max-width: 699px) {
+  .content {
+    // justify-content: center;
+    p {
+      // width: 60rem;
+      // width: 80vw;
+      height: 80rem;
+      padding: 0rem 0rem 0rem 0rem;
+      // display: flex;
+      // justify-content: center;
+    }
+    .heading-page {
+      // font-size: 0.2rem;
+    }
+    .heading-mainn {
+      // width: 60rem;
+      width: 80vw;
+      margin-bottom: 2rem;
+      padding: 0rem 0rem 8rem 0rem;
+      // display: flex;
+      // justify-content: center;
+    }
+  }
+}
+@media screen and (max-width: 292px) {
+  .content {
+    p {
+      // font-size: 10px;
+      // display: none;
+      // margin: 6rem;
+      // padding: 0rem 5rem 0rem 25rem;
+      // display: flex;
+      // justify-content: center;
+    }
+    .heading-page {
+      // font-size: 0.2rem;
+    }
+    .heading-mainn {
+      // width: 60rem;
+      // padding: 0rem 0rem 0rem 20rem;
+    }
+  }
+}

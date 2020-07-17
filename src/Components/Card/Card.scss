@@ -1,0 +1,59 @@
+$mainC: #f1f3f6;
+$secC: #9dabc0;
+$svgC: rgba(#929cd0, 0.8);
+
+.whole-contenter1 {
+  font-family: "Rubik", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  // margin-top: 20rem;
+  // padding: 15rem 0rem 15rem 0rem;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.property-card1 {
+  height: 54em;
+  width: 40em;
+
+  // height: 50rem;
+  // width: 44rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.6rem;
+  padding: 2rem;
+  text-align: -webkit-match-parent;
+  box-shadow: inset 0 0 15px rgba(55, 84, 170, 0),
+    inset 0 0 20px rgba(255, 255, 255, 0), 7px 7px 15px rgba(55, 84, 170, 0.15),
+    -7px -7px 20px rgba(255, 255, 255, 1),
+    inset 0px 0px 4px rgba(255, 255, 255, 0.2); // lite than dark
+  h5 {
+    margin-bottom: 1rem;
+    font-size: 3.2em;
+    font-weight: 700;
+    text-align: center;
+    background: linear-gradient(to right, #292d2e, #525b5e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  p {
+    color: #292d2ee7;
+    text-align: center;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 3.3rem;
+    margin-top: 3rem;
+  }
+}
+
+.property-image1 {
+  height: 14em;
+  width: 14em;
+  margin-bottom: 0.8rem;
+}

@@ -1,0 +1,163 @@
+header {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  height: 12vh;
+  align-items: center;
+  margin-top: 0.7rem;
+
+  .logo-container,
+  .nav-links,
+  .button {
+    display: flex;
+  }
+  .nav-links {
+    margin-right: 15rem;
+  }
+
+  .logo-container {
+    flex: 1;
+
+    .logo-text {
+      font-family: Rubik;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 3.6rem;
+      line-height: 4.3rem;
+
+      a {
+        color: #292d2e;
+      }
+    }
+  }
+
+  nav {
+    flex: 2;
+    justify-content: space-between;
+    list-style: none;
+
+    .link {
+      font-family: Rubik;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 2.4rem;
+      line-height: 2.8rem;
+      color: #494646;
+    }
+  }
+
+  .button {
+    flex: 1;
+  }
+}
+
+///////////////////////////////// Brack Point
+
+@media screen and (max-width: 1124px) {
+  .nav-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .button {
+    display: none;
+    // flex: 1;
+    .btn2 {
+      display: none;
+    }
+  }
+
+  .nav-links {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    background-color: #346ee2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    clip-path: circle(7.4rem at 98% -10%);
+    -webkit-clip-path: circle(7.4rem at 98% -10%);
+    transition: all 1s ease-out;
+    pointer-events: none;
+
+    li {
+      margin: 1% 0rem 1% 0rem;
+      margin-top: 10%;
+      opacity: 0;
+      a {
+        color: white;
+        font-size: 4rem;
+      }
+    }
+  }
+  .open {
+    clip-path: circle(1400px at 90% -5%);
+    -webkit-clip-path: circle(1400px at 90% -5%);
+    pointer-events: all;
+  }
+
+  .nav-links li:nth-child(1) {
+    transition: all 0.5s ease 0.2s;
+  }
+  .nav-links li:nth-child(2) {
+    transition: all 0.5s ease 0.4s;
+  }
+  .nav-links li:nth-child(3) {
+    transition: all 0.5s ease 0.6s;
+  }
+  .nav-links li:nth-child(4) {
+    transition: all 0.5s ease 0.8s;
+  }
+  .nav-links li:nth-child(5) {
+    transition: all 0.5s ease 1s;
+  }
+
+  .up-bur {
+    z-index: 2;
+    cursor: pointer;
+  }
+
+  .burger {
+    z-index: 2;
+    cursor: pointer;
+
+    .line {
+      width: 2.5rem;
+      height: 0.3rem;
+      background-color: #494646; // #494646
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  .open-burger {
+    div {
+      width: 2.5rem;
+      height: 0.3rem;
+      background-color: #494646; // #494646
+      margin-bottom: 0.5rem;
+      transform-origin: 1px;
+      transition: all 0.3s linear;
+
+      &:nth-child(1) {
+        transform: rotate(45deg);
+      }
+
+      &:nth-child(2) {
+        transform: translateX(100%);
+        opacity: 0;
+      }
+
+      &:nth-child(3) {
+        transform: rotate(-45deg);
+      }
+    }
+  }
+
+  li.fade {
+    opacity: 1;
+    transform: translateY(-30px);
+  }
+}

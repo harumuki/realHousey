@@ -1,0 +1,17 @@
+.testimonials-container {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30rem;
+
+  .testimonials-top {
+    margin-bottom: 4rem;
+  }
+
+  // .testimonials-box {
+  //   margin-bottom: 12rem;
+  // }
+}

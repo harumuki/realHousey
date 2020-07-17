@@ -1,0 +1,101 @@
+.parallaxx__imagee {
+  .parallaxx__image--container {
+    width: 100%;
+    min-height: 67em;
+    position: absolute;
+    top: 12rem;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .parallaxx__inner--box {
+    h2 {
+      position: absolute;
+      left: 13.4rem;
+      top: 40.3rem;
+
+      font-style: normal;
+      font-weight: normal;
+      font-size: 6.2rem;
+      line-height: 6.4rem;
+      color: #ffffff;
+    }
+    .parallaxx__box--address {
+      position: absolute;
+      left: 13.5rem;
+      top: 53.4rem;
+      // display: block;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 3.8rem;
+      line-height: 4.7rem;
+      color: #ffffff;
+    }
+    p:last-child {
+      position: absolute;
+      left: 13.4rem;
+      top: 59rem;
+
+      font-style: normal;
+      font-weight: normal;
+      font-size: 3rem;
+      line-height: 3.5rem;
+      color: #ffffff;
+    }
+  }
+  .parallaxx__box {
+    position: relative;
+    height: 660rem;
+    font-size: 4rem;
+    // background: #e7eef6;
+    background: #d3e2f2;
+    z-index: -1;
+
+    .parallaxx__card {
+      position: relative;
+      top: 8.5%;
+      left: 0;
+    }
+    h2 {
+      position: relative;
+      top: 45%;
+      left: 0;
+    }
+
+    .parallaxx-card2 {
+      position: relative;
+      top: 22%;
+      left: 5%;
+    }
+    .parallaxx-card3 {
+      position: relative;
+      top: 15.8%;
+      left: 40%;
+    }
+    .parallaxx-card4 {
+      position: relative;
+      top: 15%;
+      left: 5%;
+    }
+    .parallaxx-card5 {
+      position: relative;
+      top: -1.4%;
+      left: 40%;
+    }
+  }
+}
+
+@media screen and (max-width: 1297px) {
+  .parallaxx-card3 {
+    position: relative;
+    top: 15.8%;
+    left: 40%;
+  }
+  .parallaxx-card5 {
+    position: relative;
+    top: -1.4%;
+    left: 40%;
+  }
+}

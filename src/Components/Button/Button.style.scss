@@ -1,0 +1,35 @@
+.primary-btn {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  color: #ffffff;
+  background: #266cf6;
+  padding: 2.6rem 5.2rem 2.6rem 5.2rem;
+  border: none;
+  border-radius: 10rem;
+  outline: none;
+}
+
+.primary-btn:focus {
+  outline: 0 !important;
+}
+
+.btn2 {
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  color: #ffffff;
+  background: #266cf6;
+  padding: 3rem;
+  // margin-left: 15rem;
+  border: none;
+  border-radius: 100px 0px 100px 100px;
+}
+
+.btn2:focus {
+  outline: 0 !important;
+}

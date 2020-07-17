@@ -1,0 +1,57 @@
+.contact-details-card-boxx {
+  width: 100%;
+  .contact-details-box {
+    width: 53.2rem;
+    height: 65.5rem;
+    padding: 9rem 3rem 0rem 3.8rem;
+    background: rgba(235, 244, 254, 0.34);
+    box-shadow: 15px 15px 14px rgba(0, 0, 0, 0.05);
+    border-radius: 4.4rem;
+    margin: 10rem 10rem 10rem 10rem;
+
+    .contact-details-title {
+      h3 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 2.8rem;
+        line-height: 3.3rem;
+        color: #3b4144;
+        margin-top: 6.236rem;
+      }
+    }
+
+    .contact-details-name {
+      h3 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 3.2rem;
+        line-height: 3.7rem;
+        color: #3b4144;
+        margin-top: 2.8rem;
+      }
+    }
+
+    .contact-details-info {
+      margin-top: 1.5rem;
+      p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2.5rem;
+        line-height: 2.9rem;
+        color: #3b4144;
+        margin-top: 0.8rem;
+      }
+    }
+
+    .contact-details-description {
+      margin-top: 3.6rem;
+      p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2.2rem;
+        line-height: 2.6rem;
+        color: #3b4144;
+      }
+    }
+  }
+}

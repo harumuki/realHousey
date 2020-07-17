@@ -1,0 +1,83 @@
+.cantenter {
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: auto;
+  flex-wrap: wrap;
+  margin-top: 20rem;
+  margin-bottom: 0rem;
+
+  .card1 {
+    height: 24em;
+    width: 34em;
+  }
+  .card2 {
+    height: 24em;
+    width: 34em;
+  }
+  .card3 {
+    height: 24em;
+    width: 34em;
+  }
+}
+
+/////////////////////////// Brack Point ///////////////////////////
+
+@media screen and (max-width: 1579px) {
+  .card1 {
+    margin-top: 7rem;
+  }
+  .card2 {
+    margin-top: 7rem;
+  }
+  .card3 {
+    margin-top: 7rem;
+  }
+  .cantenter {
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 1419px) {
+  .card1 {
+    margin-top: 7rem;
+  }
+  .card2 {
+    margin-top: 7rem;
+  }
+  .card3 {
+    margin-top: 7rem;
+  }
+}
+
+@media screen and (max-width: 1267px) {
+  .card1 {
+    margin-top: 7rem;
+  }
+  .card2 {
+    margin-top: 7rem;
+  }
+  .card3 {
+    margin-top: 7rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .card1 {
+    margin-top: 7rem;
+  }
+  .card2 {
+    margin-top: 7rem;
+  }
+  .card3 {
+    margin-top: 7rem;
+  }
+}
+
+@media screen and (max-width: 803px) {
+  .cantenter {
+    height: 70vh;
+  }
+}

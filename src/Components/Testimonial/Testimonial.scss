@@ -1,0 +1,67 @@
+.testimonial-box {
+  display: flex;
+  align-items: center;
+
+  .testimonial-img {
+    img {
+      // width: 50rem;
+      width: 30vw;
+      border-radius: 25rem 25rem 0rem 25rem;
+      flex: 1;
+    }
+  }
+
+  .testimonial-content--box {
+    flex: 1;
+    margin-left: 10rem; //
+    margin-top: 10rem;
+    padding-bottom: 10rem;
+
+    .testimonial-icon {
+      img {
+        // width: 30rem;
+        width: 18vw;
+      }
+    }
+
+    .testimonial-description {
+      // width: 50rem;
+      width: 28.5vw;
+      font-family: Rubik;
+      font-weight: 500;
+      font-size: 2rem;
+      line-height: 3.7rem;
+      color: #292d2e;
+      margin-bottom: 3rem;
+    }
+
+    p {
+      font-family: Rubik;
+      font-style: normal;
+      font-size: 1.5rem;
+      color: #292d2ee7;
+    }
+  }
+}
+
+///////////////////////////////// BrackPoints /////////////////////////////////
+
+@media screen and (max-width: 1000px) {
+  .testimonial-box {
+    flex-direction: column;
+    justify-content: center;
+    .testimonial-img img {
+      // width: 50rem;
+      width: 50vw;
+    }
+    .testimonial-content--box {
+      margin-left: 0rem; //
+      .testimonial-description {
+        // width: 50rem;
+        width: 50vw;
+        font-size: 2.5rem;
+        text-align: center;
+      }
+    }
+  }
+}

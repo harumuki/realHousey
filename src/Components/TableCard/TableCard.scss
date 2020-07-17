@@ -1,0 +1,52 @@
+.table-card-boxx {
+  height: 100rem;
+  width: 100%;
+  background: #d3e2f2;
+  .table-card-box {
+    width: 53.2rem;
+    height: 65.5rem;
+    padding: 9rem 4.2rem 0rem 4rem;
+    background: rgba(235, 244, 254, 0.34);
+    // background: #ebf4fe;
+    box-shadow: 15px 15px 14px rgba(0, 0, 0, 0.05);
+    border-radius: 4.4rem;
+    margin: 10rem 10rem 10rem 10rem;
+
+    .table-card-box-inner {
+      display: flex;
+      flex-direction: column;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 2.4rem;
+      line-height: 2.8rem;
+      color: #3b4144;
+      margin-top: 5rem;
+
+      table {
+        -moz-border-radius: 25px;
+        -webkit-border-radius: 25px;
+        border-radius: 25px;
+        // overflow: hidden;
+        // border-collapse: separate !important;
+      }
+      table,
+      th,
+      td {
+        border: 2rem solid #f0f7ff;
+        border-collapse: collapse;
+      }
+      th {
+        padding: 0.5rem 0rem 0.5rem 2rem;
+        width: 20rem;
+      }
+      td {
+        padding: 0.5rem 0rem 0.5rem 0rem;
+        text-align: center;
+        width: 15rem;
+      }
+      th {
+        text-align: left;
+      }
+    }
+  }
+}

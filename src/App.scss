@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  // display: inline;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+.full-hight {
+  min-height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/////////////////////////// Brack Point ///////////////////////////
+
+@media screen and (max-width: 1579px) {
+  html {
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width: 1419px) {
+  html {
+    // font-size: 9px;
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 1267px) {
+  .svgs {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  html {
+    font-size: 7px;
+  }
+}
+
+/// 670px
+@media screen and (max-width: 769px) {
+  html {
+    font-size: 6px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  html {
+    font-size: 5px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  html {
+    font-size: 4px;
+  }
+
+  .no-shadow-img1,
+  .no-shadow-img2 {
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  html {
+    font-size: 3px;
+  }
+}
+@media screen and (max-width: 265px) {
+  html {
+    font-size: 2.2px;
+  }
+}
+@media screen and (max-width: 184px) {
+  html {
+    font-size: 1.8px;
+  }
+}

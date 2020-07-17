@@ -1,0 +1,66 @@
+.rap {
+  width: 90%;
+  margin: auto;
+  // margin-left: 5%;
+  // margin-right: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card-2 {
+  height: 54em;
+  width: 40em;
+  box-shadow: 2px 4px 17px 8px rgba(0, 0, 0, 0.05);
+}
+
+/////////////////////////// Brack Point ///////////////////////////
+
+@media screen and (max-width: 1579px) {
+  .card-1 {
+    margin-top: 0rem;
+  }
+  .card-2 {
+    margin-top: 7rem;
+  }
+  .card-3 {
+    margin-top: 7rem;
+  }
+}
+
+@media screen and (max-width: 1419px) {
+  .card-1 {
+    margin-top: 0rem;
+  }
+  .card-2 {
+    margin-top: 7rem;
+  }
+  .card-3 {
+    margin-top: 7rem;
+  }
+}
+
+@media screen and (max-width: 1267px) {
+  .card-1 {
+    margin-top: 0rem;
+  }
+  .card-2 {
+    margin-top: 7rem;
+  }
+  .card-3 {
+    margin-top: 7rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .card-1 {
+    margin-top: 0rem;
+  }
+  .card-2 {
+    margin-top: 7rem;
+  }
+  .card-3 {
+    margin-top: 7rem;
+  }
+}
