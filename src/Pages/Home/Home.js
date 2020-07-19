@@ -9,6 +9,13 @@ import Cards from "../Cards/Cards";
 import RecentListItem from "../RecentListItem/RecentListItem";
 import Testimonials from "../Testimonials/Testimonials";
 import Footer from "../../Components/Footer/Footer";
+import ImageGallary from "../../Components/ImageGallary/ImageGallary";
+
+import img1 from "../../External/house-images/house11.jpg";
+import img2 from "../../External/house-images/house2.jpg";
+import img3 from "../../External/house-images/house3.jpg";
+import img4 from "../../External/house-images/house4.jpg";
+import img5 from "../../External/house-images/house5.jpg";
 
 function Home() {
   return (
@@ -21,6 +28,13 @@ function Home() {
         <Cards />
         <RecentListItem />
         <Testimonials />
+        <ImageGallary
+          mainImage={img1}
+          img1={img2}
+          img2={img3}
+          img3={img4}
+          img4={img5}
+        />
       </div>
       <div className="home-footer">
         <Footer />
