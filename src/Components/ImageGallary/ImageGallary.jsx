@@ -7,6 +7,7 @@ const ImageGallary = ({ mainImage, img1, img2, img3, img4 }) => {
     display: "flex",
     flexDirection: "row",
     justifyContent: "space-evenly",
+    flexWrap: "wrap",
     // left: 1300,
     // top: 670,
   };

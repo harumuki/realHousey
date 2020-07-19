@@ -34,13 +34,30 @@ class HouseProvider extends Component {
     return tempItems;
   }
 
-  getHouse = (type, id) => {
+  ///////////////////////
+
+  // getHouse = (slug) => {
+  //   let tempHouses = [...this.state.houses];
+  //   const house = tempHouses.find((house) => house.slug === slug);
+  //   return house;
+  // };
+  //////////////////
+  // getHouse = (slug) => {
+  //   let tempHouses = [...this.state.houses];
+  //   const house = tempHouses.find((house) => house.type === slug);
+  //   return house;
+  // };
+
+  ///////////////////////
+  getHouse = (slug) => {
     let tempHouses = [...this.state.houses];
-    const house = tempHouses.find(
-      (house) => (house.type === type, house.id === id)
-    );
+    const house = tempHouses.find((house) => house.slug === slug);
     return house;
   };
+
+  //////////////
+
+  /////////////
 
   render() {
     return (

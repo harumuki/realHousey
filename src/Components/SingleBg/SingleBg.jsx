@@ -4,6 +4,7 @@ import { render } from "react-dom";
 
 import "./SingleBg.scss";
 import { HouseContext } from "../../Context";
+// import { Link } from "react-scripts";
 import ImageGallary from "../ImageGallary/ImageGallary";
 import InnerCard from "../InnerCard/InnerCard";
 
@@ -15,15 +16,29 @@ import img5 from "../../External/house-images/house5.jpg";
 import TableCard from "../TableCard/TableCard";
 import ContactDetailsCard from "../ContactDetailsCard/ContactDetailsCard";
 
-const SingleBg = ({ img }) => {
+const SingleBg = ({ img, house }) => {
+  const {
+    name,
+    description,
+    capacity,
+    size,
+    price,
+    extras,
+    brackfast,
+    pets,
+    images,
+  } = house;
   return (
     <div className="parallaxx__imagee">
       <div
-        style={{ backgroundImage: `url(${img})`, filter: "brightness(0.8)" }}
+        style={{
+          backgroundImage: `url(${images[0]})`,
+          filter: "brightness(0.8)",
+        }}
         className="parallaxx__image--container"
       ></div>
       <div className="parallaxx__inner--box">
-        <h2>Deplex House</h2>
+        <h2>{name}</h2>
         <p className="parallaxx__box--address">9685 Denhart Ave</p>
         <p>California City, CA 93505</p>
       </div>

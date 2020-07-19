@@ -39,7 +39,7 @@ export default [
     },
     fields: {
       name: "landscaping house",
-      slug: "single-economy",
+      slug: "landscaping-1",
       type: "landscaping",
       address: "186 Francisco St APT 2, San Francisco, CA 94133",
       haffAddress: "San Francisco, CA 94133",
@@ -99,7 +99,7 @@ export default [
     },
     fields: {
       name: "mediterranean house",
-      slug: "mediterranean house",
+      slug: "mediterranean-2",
       type: "mediterranean",
       address: "16505 Baycross Dr, Lakewood Ranch, FL 34202",
       haffAddress: "Lakewood Ranch, FL 34202",
@@ -159,7 +159,7 @@ export default [
     },
     fields: {
       name: "minature house",
-      slug: "single-standard",
+      slug: "minature-3",
       type: "minature",
       address: "404 County Road 421, Spicewood, TX 78669",
       haffAddress: "Spicewood, TX 78669",
@@ -219,7 +219,7 @@ export default [
     },
     fields: {
       name: "minature house",
-      slug: "minature",
+      slug: "minature-4",
       type: "minature",
       address: "27 Payday Dr, Park City, UT 84060",
       haffAddress: "Park City, UT 84060",
@@ -279,7 +279,7 @@ export default [
     },
     fields: {
       name: "duplex house",
-      slug: "duplex",
+      slug: "duplex-5",
       type: "duplex",
       address: "4342 Bobwhite Ct, Ogden, UT 84403",
       haffAddress: "Ogden, UT 84403",
@@ -339,7 +339,7 @@ export default [
     },
     fields: {
       name: "windowed house",
-      slug: "windowed",
+      slug: "windowed-6",
       type: "windowed",
       address: "27 Payday Dr, Park City, UT 84060",
       haffAddress: "Park City, UT 84060",
@@ -399,7 +399,7 @@ export default [
     },
     fields: {
       name: "minature house",
-      slug: "minature",
+      slug: "minature-7",
       type: "minature",
       address: "6093 Trinidad Ave, Cypress, CA 90630",
       haffAddress: "Cypress, CA 90630",
@@ -459,7 +459,7 @@ export default [
     },
     fields: {
       name: "duplex house",
-      slug: "duplex",
+      slug: "duplex-8",
       type: "duplex",
       address: "1498 N Belmont Ave, Washington, UT 84780",
       usState: "Utah",
@@ -519,7 +519,7 @@ export default [
     },
     fields: {
       name: "frame house",
-      slug: "frame",
+      slug: "frame-9",
       type: "frame",
       address: "1310 S Bender Ave, Glendora, CA 91740",
       haffAddress: "Glendora, CA 91740",
@@ -579,7 +579,7 @@ export default [
     },
     fields: {
       name: "mediterranean house",
-      slug: "mediterranean",
+      slug: "mediterranean-10",
       type: "mediterranean",
       address: "12260 Waterbrook Dr, Rancho Cucamonga, CA 91739",
       haffAddress: "Rancho Cucamonga, CA 91739",
@@ -639,7 +639,7 @@ export default [
     },
     fields: {
       name: "Scandinavian house",
-      slug: "Scandinavian",
+      slug: "Scandinavian-11",
       type: "Scandinavian",
       address: "3701 Potrero Dr, Fullerton, CA 92835",
       usState: "California",
@@ -699,7 +699,7 @@ export default [
     },
     fields: {
       name: "mountain house",
-      slug: "mountain",
+      slug: "mountain-12",
       type: "mountain",
       address: "4335 23rd St, San Francisco, CA 94114",
       haffAddress: "San Francisco, CA 94114",
@@ -759,7 +759,7 @@ export default [
     },
     fields: {
       name: "duplex house",
-      slug: "duplex",
+      slug: "duplex-13",
       type: "duplex",
       address: "75 Wall St APT 29C, New York, NY 10005",
       haffAddress: "New York, NY 10005",

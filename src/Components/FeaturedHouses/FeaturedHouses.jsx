@@ -13,11 +13,11 @@ import { Link } from "react-router-dom";
 const FeaturedHouses = ({ house }) => {
   // console.log(house);
 
-  const { name, type, images, price, usState, haffAddress, id } = house;
+  const { name, type, images, price, haffAddress, slug } = house;
   return (
     <div className="featured-box">
       {/* <div className="featured-sub-box"> */}
-      <Link to={`/${usState}/houses/${type}-${id}`}>
+      <Link to={`/houses/${slug}`}>
         <ListItemCard
           image={images[0] || defaultImg}
           title={name}
