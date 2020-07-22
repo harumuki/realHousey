@@ -5,7 +5,7 @@ import { Switch, Route } from "react-router-dom";
 import Home from "./Pages/Home/Home";
 import "./App.scss";
 import NavBar from "./Components/Nav/NavBar";
-import House from "./Pages/House/House";
+import Houses from "./Pages/Houses/Houses";
 import RentHouse from "./Pages/Rent House/RentHouse";
 import Sell from "./Pages/sell/Sell";
 import HomeLoads from "./Pages/Home Loans/HomeLoads";
@@ -43,7 +43,7 @@ export default class App extends Component {
         <NavBar />
         <Switch>
           <Route path="/" component={Home} exact />
-          <Route exact path="/house" component={House} />
+          <Route exact path="/houses" component={Houses} />
           <Route exact path="/rent" component={RentHouse} />
           <Route exact path="/sell" component={Sell} />
           <Route exact path="/homeloans" component={HomeLoads} />

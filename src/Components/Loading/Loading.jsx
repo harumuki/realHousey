@@ -6,7 +6,7 @@ const Loading = () => {
   return (
     <div className="loader-container">
       <div className="loader-heading">
-        <Heading heading="heading3">Houses Data Loading...</Heading>
+        <Heading heading="heading3">Houses Data Is Loading...</Heading>
       </div>
 
       {/* <!-- Loading square for squar.red network --> */}

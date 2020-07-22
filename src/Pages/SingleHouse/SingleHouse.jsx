@@ -23,17 +23,9 @@ export default class SingleHouse extends Component {
     if (!house) {
       return <Error />;
     }
-    const {
-      name,
-      description,
-      capacity,
-      size,
-      price,
-      extras,
-      brackfast,
-      pets,
-      images,
-    } = house;
+    const { name, haffStartAddress, haffEndAddress, images } = house;
+    // console.log(haffEndAddress, haffStartAddress);
+    // console.log(house);
 
     return (
       <div>

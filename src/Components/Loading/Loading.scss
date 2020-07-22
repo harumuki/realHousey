@@ -16,6 +16,10 @@
 
 .loader-container {
   margin-top: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .loader {
@@ -23,8 +27,9 @@
   width: 14rem; // change
   height: 14rem;
   position: relative;
-  border: 0.6rem solid #266cf6;
-  left: 30%;
+  border: 0.8rem solid #266cf6;
+  border-radius: 2rem;
+  // left: 30%;
   animation: loader 2s infinite ease;
   // text-align: center;
 }
@@ -36,7 +41,9 @@
 .loader-inner {
   vertical-align: top;
   display: inline-block;
-  width: 100%;
+  width: 101%;
+  // height: 110%;
+  // height: 145rem;
   background-color: #266cf6;
   animation: loader-inner 2s infinite ease-in;
 }

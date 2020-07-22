@@ -10,10 +10,20 @@ import ListItemCard from "../ListItemCard/ListItemCard";
 import defaultImg from "../../External/house-images/house14.jpg";
 import { Link } from "react-router-dom";
 
-const FeaturedHouses = ({ house }) => {
+const Houses = ({ house }) => {
   // console.log(house);
 
-  const { name, type, images, price, haffAddress, slug } = house;
+  const {
+    name,
+    type,
+    images,
+    price,
+    haffEndAddress,
+    slug,
+    beds,
+    baths,
+    Sqft,
+  } = house;
   return (
     <div className="featured-box">
       {/* <div className="featured-sub-box"> */}
@@ -21,11 +31,11 @@ const FeaturedHouses = ({ house }) => {
         <ListItemCard
           image={images[0] || defaultImg}
           title={name}
-          subTitle={haffAddress}
+          subTitle={haffEndAddress}
           price={price}
-          bd="4 bd"
-          ba="4 ba"
-          sqft="1,036 sqft"
+          bd={beds}
+          ba={baths}
+          sqft={Sqft}
         />
       </Link>
       {/* </div> */}
@@ -33,7 +43,7 @@ const FeaturedHouses = ({ house }) => {
   );
 };
 
-FeaturedHouses.propTypes = {
+Houses.propTypes = {
   house: PropTypes.shape({
     name: PropTypes.string.isRequired,
     type: PropTypes.string.isRequired,
@@ -44,4 +54,4 @@ FeaturedHouses.propTypes = {
   }),
 };
 
-export default FeaturedHouses;
+export default Houses;

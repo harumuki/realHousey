@@ -5,7 +5,7 @@ import "./RecentListItem.scss";
 import Content from "../../Components/Content-Container/Content";
 import { HouseContext } from "../../Context";
 import Loading from "../../Components/Loading/Loading";
-import FeaturedHouses from "../../Components/FeaturedHouses/FeaturedHouses";
+import Houses from "../../Components/Houses/Houses";
 
 class RecentListItem extends Component {
   static contextType = HouseContext;
@@ -14,7 +14,7 @@ class RecentListItem extends Component {
     houses = houses.map((house) => {
       // console.log(house);
 
-      return <FeaturedHouses key={house.id} house={house} />;
+      return <Houses key={house.id} house={house} />;
     });
 
     // console.log(houses);

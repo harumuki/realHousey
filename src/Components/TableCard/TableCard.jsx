@@ -2,7 +2,7 @@ import React from "react";
 import "./TableCard.scss";
 
 import Heading from "../Heading/Heading";
-import table from "../../External/icons/table.svg";
+// import table from "../../External/icons/table.svg";
 
 const TableCard = ({ year, tax, improvements, land, total }) => {
   return (

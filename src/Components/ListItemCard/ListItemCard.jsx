@@ -17,9 +17,9 @@ const ListItemCard = ({ image, title, subTitle, price, bd, ba, sqft }) => {
           <div className="list-item--details--box">
             <p className="list-item-price">{price}</p>
             <div className="list-item--details">
-              <p>{bd}</p>
-              <p>{ba}</p>
-              <p>{sqft}</p>
+              <p>{bd} bd</p>
+              <p>{ba} ba</p>
+              <p>{sqft} sqft</p>
             </div>
           </div>
         </div>

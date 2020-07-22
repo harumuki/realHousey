@@ -2,38 +2,30 @@
   width: 90%;
   margin: auto;
   display: flex;
+  justify-content: space-between;
   margin-top: 11rem;
   flex-wrap: wrap;
+  height: 150rem;
 
   .image-gallary-main {
-    position: absolute;
     width: 95rem;
-    // width: 46.5vw;
-    height: 69.5rem;
-    // height: 74.2vh;
-    left: 12.5rem;
-    top: 4rem;
+    height: 70rem;
     border: 1.3rem solid #ffffff;
     box-sizing: border-box;
     box-shadow: 5px 5px 10px rgba(21, 20, 20, 0.34);
   }
   .image-gallary-box--container {
-    position: absolute;
-    left: 112rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    height: 70rem; // C
+
     .image-gallary-box1 {
-      position: absolute;
-      width: 80.5rem;
-      // width: 39.4vw;
-      height: 70rem;
-      // height: 42vh;
-      top: 4rem;
       display: flex;
       flex-direction: row;
       flex-direction: row;
-      justify-content: space-evenly;
+      justify-content: space-between;
+      width: 75rem;
 
       img {
         &:nth-child(1),
@@ -47,13 +39,10 @@
       }
     }
     .image-gallary-box2 {
-      position: absolute;
-      top: 40.2rem;
-      width: 80.5rem;
-      height: 70rem;
       display: flex;
       flex-direction: row;
-      justify-content: space-evenly;
+      justify-content: space-between;
+      width: 75rem;
 
       img {
         &:nth-child(1),
@@ -67,9 +56,4 @@
       }
     }
   }
-}
-
-/////////////////////////// Brack Point ///////////////////////////
-
-@media screen and (max-width: 370px) {
 }

@@ -4,18 +4,29 @@
     height: 31.6rem;
     display: flex;
     flex-direction: column;
-    padding: 6.3rem 0rem 0rem 5.3rem;
+    padding: 0rem 0rem 0rem 5.3rem;
     background: rgba(235, 244, 254, 0.34);
     box-shadow: 15px 15px 14px rgba(0, 0, 0, 0.05);
     border-radius: 4.4rem;
-    margin: 10rem 10rem 10rem 10rem;
+    // margin: 10rem 10rem 10rem 10rem; //
 
     .inner-card-box-inner {
-      position: absolute;
-      top: 6.5rem;
+      // position: absolute;
+      // top: 6.5rem;
 
       display: flex;
       flex-direction: column;
+      justify-content: space-between;
+      height: 24rem;
+      // padding-top: 2rem;
+      // align-items: center;
+      // padding-bottom: 10rem; // No
+      .inner-card-box_1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 7.5rem;
+      }
 
       .inner-card-title {
         font-style: normal;
@@ -36,13 +47,14 @@
       }
 
       .inner-card-icon-box {
-        position: relative;
+        // position: relative;
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        // align-items: center;
         width: 38.6rem;
         height: 3.577rem;
-        left: 0rem;
+        // line-height: 4.8rem;
+        // left: 0rem;
 
         p {
           font-style: normal;
@@ -80,12 +92,46 @@
           display: flex;
           img {
             margin-right: 1.14rem;
+            // margin-left: 1.14rem;
           }
           p {
             padding-right: 0.6rem;
           }
         }
       }
+    }
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .inner-card-box {
+    margin-bottom: 7rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .inner-card-boxx .inner-card-box {
+    width: 59.2rem;
+  }
+  .inner-card-box3 {
+    img {
+      // margin-right: 0.5rem;
+      margin-left: 4rem;
+    }
+    p {
+      padding-right: 0rem;
+    }
+  }
+
+  @media screen and (max-width: 265px) {
+    .inner-card-boxx
+      .inner-card-box
+      .inner-card-box-inner
+      .inner-card-subTitle {
+      line-height: 4.8rem;
+    }
+    .inner-card-boxx .inner-card-box {
+      width: 65rem;
     }
   }
 }

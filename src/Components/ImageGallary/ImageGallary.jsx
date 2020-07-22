@@ -3,7 +3,6 @@ import "./ImageGallary.scss";
 
 const ImageGallary = ({ mainImage, img1, img2, img3, img4 }) => {
   const SmallBox = {
-    position: "absolute",
     display: "flex",
     flexDirection: "row",
     justifyContent: "space-evenly",
@@ -20,7 +19,6 @@ const ImageGallary = ({ mainImage, img1, img2, img3, img4 }) => {
   return (
     <div className="image-gallary-container">
       <img className="image-gallary-main" src={mainImage} alt="main-image" />
-
       <div className="image-gallary-box--container">
         <div
           className="image-gallary-box1"

@@ -1,7 +1,7 @@
 .table-card-boxx {
-  height: 100rem;
-  width: 100%;
-  background: #d3e2f2;
+  // height: 100rem;
+  // width: 100%;
+  // background: #d3e2f2;
   .table-card-box {
     width: 53.2rem;
     height: 65.5rem;
@@ -10,7 +10,7 @@
     // background: #ebf4fe;
     box-shadow: 15px 15px 14px rgba(0, 0, 0, 0.05);
     border-radius: 4.4rem;
-    margin: 10rem 10rem 10rem 10rem;
+    // margin: 10rem 10rem 10rem 10rem; //
 
     .table-card-box-inner {
       display: flex;
@@ -48,5 +48,11 @@
         text-align: left;
       }
     }
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .table-card-box {
+    margin-bottom: 7rem;
   }
 }

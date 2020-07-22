@@ -6,11 +6,13 @@ import Heading from "../Heading/Heading";
 
 const ContactDetailsCard = ({
   name,
+  img,
   mobileNum,
   licenseNum,
   email,
   description,
 }) => {
+  // console.log(img);
   return (
     <div className="contact-details-card-boxx">
       <div className="contact-details-box">
@@ -21,6 +23,8 @@ const ContactDetailsCard = ({
           <h3>REALTOR /Listing provided by</h3>
         </div>
         <div className="contact-details-name">
+          <img src={`${img}`} alt="Realtor-Image" />
+          {/* <img src={require(`${img}`)} alt="Realtor-Image" /> */}
           <h3>{name}</h3>
         </div>
         <div className="contact-details-info">

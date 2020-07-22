@@ -2,7 +2,8 @@ header {
   display: flex;
   width: 90%;
   margin: auto;
-  height: 12vh;
+  // height: 12vh;
+  height: 10.5rem;
   align-items: center;
   margin-top: 0.7rem;
 
@@ -54,6 +55,9 @@ header {
 ///////////////////////////////// Brack Point
 
 @media screen and (max-width: 1124px) {
+  header .nav-links {
+    margin-right: 0rem;
+  }
   .nav-container {
     display: flex;
     justify-content: space-evenly;
@@ -72,6 +76,7 @@ header {
     position: absolute;
     top: 0rem;
     left: 0rem;
+    // margin-right: 0rem;
     background-color: #346ee2;
     display: flex;
     flex-direction: column;
