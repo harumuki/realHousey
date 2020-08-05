@@ -30,19 +30,20 @@ const SingleBg = ({ img, house }) => {
         ></div>
         <div className="parallaxx__inner--box">
           <h2>{name}</h2>
-          <p className="parallaxx__box--address">9685 Denhart Ave</p>
-          <p>California City, CA 93505</p>
+          <p className="parallaxx__box--address">{haffStartAddress}</p>
+          <p>{haffEndAddress}</p>
         </div>
         <div className="parallaxx__box">
           <div className="parallaxx__card">
             <ImageGallary
-              mainImage={img1}
+              mainImage={images[0]}
               img1={img2}
               img2={img3}
               img3={img4}
               img4={img5}
             />
           </div>
+          {/* <div className="popup-click" onChange={item => console.log("popup-clicked")}></div> */}
           {/* <div className="parallaxx---box-2">  */}
           <div className="parallaxx__card-2">
             <ParallaxCard house={house} />

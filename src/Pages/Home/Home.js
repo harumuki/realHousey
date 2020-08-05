@@ -18,6 +18,7 @@ import ImageGallary from "../../Components/ImageGallary/ImageGallary";
 // import img5 from "../../External/house-images/house5.jpg";
 import InnerCard from "../../Components/InnerCard/InnerCard";
 import ParallaxCard from "../../Components/ParallaxCard/ParallaxCard";
+import imgPopup from "../../Components/imgPopup/imgPopup";
 
 function Home() {
   return (
@@ -29,6 +30,7 @@ function Home() {
         <Works />
         <Cards />
         <RecentListItem />
+        <imgPopup />
         <Testimonials />
       </div>
       <div className="home-footer">

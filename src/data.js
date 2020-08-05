@@ -14,23 +14,48 @@
 // import img10 from "./images/room-10.jpeg";
 // import img11 from "./images/room-11.jpeg";
 // import img12 from "./images/room-12.jpeg";
+
+/////////////////////
+
+// import room1 from "./External/house-images/house13.jpg";
+// import room2 from "./images/details-2.jpeg";
+// import room3 from "./images/details-3.jpeg";
+// import room4 from "./images/details-4.jpeg";
+// import img1 from "./External/house-images/house.jpg";
+// import img2 from "./External/house-images/house2.jpg";
+// import img3 from "./External/house-images/house3.jpg";
+// import img4 from "./External/house-images/house4.jpg";
+// import img5 from "./External/house-images/house5.jpg";
+// import img6 from "./External/house-images/house6.jpg";
+// import img7 from "./External/house-images/house7.jpg";
+// import img8 from "./External/house-images/house8.jpg";
+// import img9 from "./External/house-images/house9.jpg";
+// import img10 from "./External/house-images/house10.jpg";
+// import img11 from "./External/house-images/house11.jpg";
+// import img12 from "./External/house-images/house12.jpg";
+// import img13 from "./External/house-images/house13.jpg";
+
+////////////
+
 import room1 from "./External/house-images/house13.jpg";
 import room2 from "./images/details-2.jpeg";
 import room3 from "./images/details-3.jpeg";
 import room4 from "./images/details-4.jpeg";
-import img1 from "./External/house-images/house.jpg";
-import img2 from "./External/house-images/house2.jpg";
-import img3 from "./External/house-images/house3.jpg";
-import img4 from "./External/house-images/house4.jpg";
-import img5 from "./External/house-images/house5.jpg";
-import img6 from "./External/house-images/house6.jpg";
-import img7 from "./External/house-images/house7.jpg";
-import img8 from "./External/house-images/house8.jpg";
-import img9 from "./External/house-images/house9.jpg";
-import img10 from "./External/house-images/house10.jpg";
-import img11 from "./External/house-images/house11.jpg";
-import img12 from "./External/house-images/house12.jpg";
-import img13 from "./External/house-images/house13.jpg";
+import img1 from "./External/House-and-Inside-Images/img1/house1.jpg";
+import img2 from "./External/House-and-Inside-Images/img2/house2.jpg";
+import img3 from "./External/House-and-Inside-Images/img3/house3.jpg";
+import img4 from "./External/House-and-Inside-Images/img4/house4.jpg";
+import img5 from "./External/House-and-Inside-Images/img5/house5.jpg";
+import img6 from "./External/House-and-Inside-Images/img6/house6.jpg";
+import img7 from "./External/House-and-Inside-Images/img7/house7.jpg";
+import img8 from "./External/House-and-Inside-Images/img8/house8.jpg";
+import img9 from "./External/House-and-Inside-Images/img9/house9.jpg";
+import img10 from "./External/House-and-Inside-Images/img10/house10.jpg";
+import img11 from "./External/House-and-Inside-Images/img11/house11.jpg";
+import img12 from "./External/House-and-Inside-Images/img12/house12.jpg";
+import img13 from "./External/House-and-Inside-Images/img13/house13.jpg";
+
+//////////////////////
 
 import imgR1 from "./External/RealtorImage/alexander.jpg";
 import imgR2 from "./External/RealtorImage/danielle.jpg";
