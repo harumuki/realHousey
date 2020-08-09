@@ -27,7 +27,6 @@ export default class SingleHouse extends Component {
       <div>
         {" "}
         <SingleBg img={img1} className="single-house-img" house={house} />
-        {house.name}
       </div>
     );
   }

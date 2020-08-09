@@ -41,9 +41,10 @@ const SingleBg = ({ img, house }) => {
               img3={img4}
               img4={img5}
             />
-          </div>
-          <div className="parallaxx__card-2">
-            <ParallaxCard house={house} />
+            <div className="parallaxx__card-2">
+              <ParallaxCard house={house} />
+              {/* <h4>I am Stack!!!</h4> */}
+            </div>
           </div>
         </div>
       </div>

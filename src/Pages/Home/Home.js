@@ -11,9 +11,6 @@ import Testimonials from "../Testimonials/Testimonials";
 import Footer from "../../Components/Footer/Footer";
 import ImageGallary from "../../Components/ImageGallary/ImageGallary";
 
-import InnerCard from "../../Components/InnerCard/InnerCard";
-import ParallaxCard from "../../Components/ParallaxCard/ParallaxCard";
-
 function Home() {
   return (
     <div className="home-full-hight">
@@ -24,7 +21,6 @@ function Home() {
         <Works />
         <Cards />
         <RecentListItem />
-        {/* <ImageGallary /> */}
         <Testimonials />
       </div>
       <div className="home-footer">

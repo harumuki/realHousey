@@ -53,7 +53,12 @@ header {
 
 ///////////////////////////////// Brack Point
 
-@media screen and (max-width: 1124px) {
+@media screen and (max-width: 440px) {
+  header nav {
+    justify-content: start;
+    flex: 2;
+    list-style: none;
+  }
   header .nav-links {
     margin-right: 0rem;
   }
@@ -67,9 +72,16 @@ header {
       display: none;
     }
   }
+  .logo-none {
+    display: none;
+  }
+
+  .fade1 {
+    padding-top: 15rem;
+  }
 
   .nav-links {
-    height: 100vh;
+    height: 100rem;
     width: 100%;
     position: absolute;
     top: 0rem;
@@ -78,16 +90,14 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    z-index: 1;
     clip-path: circle(7.4rem at 98% -10%);
     -webkit-clip-path: circle(7.4rem at 98% -10%);
     transition: all 1s ease-out;
     pointer-events: none;
 
     li {
-      margin: 1% 0rem 1% 0rem;
-      margin-top: 10%;
+      position: relative;
+      margin-top: 12rem;
       opacity: 0;
       a {
         color: white;

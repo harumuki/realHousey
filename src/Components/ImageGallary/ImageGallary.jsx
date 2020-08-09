@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useMediaQuery } from "react-responsive";
 import "./ImageGallary.scss";
 
 import SimpleImageSlider from "react-simple-image-slider";
@@ -6,6 +7,25 @@ import icon from "../../External/icons/close.svg";
 
 const ImageGallary = ({ mainImage, img1, img2, img3, img4 }) => {
   const [openGallary, setopenGallary] = useState(false);
+
+  const isTablet = useMediaQuery({ query: "(max-width: 794px)" });
+  const isTabletOrMobile = useMediaQuery({ query: "(max-width: 424px)" });
+  const isMobile = useMediaQuery({ query: "(max-width: 333px)" });
+  const isSmallMobile = useMediaQuery({ query: "(max-width: 206px)" });
+
+  let width;
+  let height;
+  if (isTablet) {
+    width = "130rem";
+  } else if (isTabletOrMobile) {
+    width = "100rem";
+  } else if (isMobile) {
+    width = "80rem";
+  } else if (isSmallMobile) {
+    width = "70rem";
+  } else {
+    width = "180rem";
+  }
 
   const images = [
     {
@@ -60,11 +80,33 @@ const ImageGallary = ({ mainImage, img1, img2, img3, img4 }) => {
       {openGallary && (
         <div className="popup-slider">
           <div className="image-popup-box">
-            <SimpleImageSlider
-              width={"150rem"}
-              height={"80rem"}
-              images={images}
-            />
+            {isMobile ? (
+              <SimpleImageSlider
+                width={
+                  (isMobile ? "80rem" : "100rem") &&
+                  (isSmallMobile ? "70rem" : "80rem")
+                }
+                height={
+                  (isTablet ? "70rem" : "80rem") &&
+                  (isTabletOrMobile ? "50rem" : "70rem")
+                }
+                slideDuration={1.2}
+                images={images}
+              />
+            ) : (
+              <SimpleImageSlider
+                width={
+                  (isTablet ? "130rem" : "150rem") &&
+                  (isTabletOrMobile ? "100rem" : "130rem")
+                }
+                height={
+                  (isTablet ? "70rem" : "80rem") &&
+                  (isTabletOrMobile ? "50rem" : "70rem")
+                }
+                slideDuration={1.2}
+                images={images}
+              />
+            )}
             <img
               src={icon}
               alt="social link"

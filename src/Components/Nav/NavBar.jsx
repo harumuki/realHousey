@@ -21,10 +21,19 @@ export default class Navbar extends Component {
             <Link to="/">realAbode</Link>
           </h2>
         </div>
+        {/* {this.state.isOpen ? (
+          <div></div>
+        ) : (
+          <div className="logo-container">
+            <h2 className="logo-text">
+              <Link to="/">realAbode</Link>
+            </h2>
+          </div>  
+        )} */}
 
         <nav className={this.state.isOpen ? "nav-links open" : "nav-links"}>
           {/* <li ref={linksRef}> */}
-          <li className={this.state.isOpen ? "fade" : ""}>
+          <li className={this.state.isOpen ? "fade fade1" : ""}>
             <Link className="link" to="/houses">
               Buy
             </Link>
@@ -46,7 +55,7 @@ export default class Navbar extends Component {
           </li>
           <li className={this.state.isOpen ? "fade" : ""}>
             <Link className="link" to="/agentfinder">
-              Agent finder
+              Agent Finder
             </Link>
           </li>
         </nav>
