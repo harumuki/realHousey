@@ -10,7 +10,6 @@ import Error from "../../Components/Error/Error";
 export default class SingleHouse extends Component {
   constructor(props) {
     super(props);
-    // console.log(this.props);
     this.state = {
       slug: this.props.match.params.slug,
       defaultBg,
@@ -24,9 +23,6 @@ export default class SingleHouse extends Component {
       return <Error />;
     }
     const { name, haffStartAddress, haffEndAddress, images } = house;
-    // console.log(haffEndAddress, haffStartAddress);
-    // console.log(house);
-
     return (
       <div>
         {" "}

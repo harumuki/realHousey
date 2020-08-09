@@ -1,18 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import PropTypes from "prop-types";
 
 import ListItemCard from "../ListItemCard/ListItemCard";
-
-// import img1 from "../../External/house-images/house.jpg";
-// import img2 from "../../External/house-images/house4.jpg";
-// import img3 from "../../External/house-images/house3.jpg";
-
 import defaultImg from "../../External/house-images/house14.jpg";
 import { Link } from "react-router-dom";
 
 const Houses = ({ house }) => {
-  // console.log(house);
-
   const {
     name,
     type,
@@ -26,7 +19,6 @@ const Houses = ({ house }) => {
   } = house;
   return (
     <div className="featured-box">
-      {/* <div className="featured-sub-box"> */}
       <Link to={`/houses/${slug}`}>
         <ListItemCard
           image={images[0] || defaultImg}
@@ -38,7 +30,6 @@ const Houses = ({ house }) => {
           sqft={Sqft}
         />
       </Link>
-      {/* </div> */}
     </div>
   );
 };

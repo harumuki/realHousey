@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./RecentListItem.scss";
 
-// import ListItemCard from "../../Components/ListItemCard/ListItemCard";
 import Content from "../../Components/Content-Container/Content";
 import { HouseContext } from "../../Context";
 import Loading from "../../Components/Loading/Loading";
@@ -12,12 +11,9 @@ class RecentListItem extends Component {
   render() {
     let { loading, featuredHouses: houses } = this.context;
     houses = houses.map((house) => {
-      // console.log(house);
-
       return <Houses key={house.id} house={house} />;
     });
 
-    // console.log(houses);
     return (
       <div className="recent-page">
         <div className="list-item--containerr">

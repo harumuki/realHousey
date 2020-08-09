@@ -1,42 +1,3 @@
-// import room1 from "./images/details-1.jpeg";
-// import room2 from "./images/details-2.jpeg";
-// import room3 from "./images/details-3.jpeg";
-// import room4 from "./images/details-4.jpeg";
-// import img1 from "./images/room-1.jpeg";
-// import img2 from "./images/room-2.jpeg";
-// import img3 from "./images/room-3.jpeg";
-// import img4 from "./images/room-4.jpeg";
-// import img5 from "./images/room-5.jpeg";
-// import img6 from "./images/room-6.jpeg";
-// import img7 from "./images/room-7.jpeg";
-// import img8 from "./images/room-8.jpeg";
-// import img9 from "./images/room-9.jpeg";
-// import img10 from "./images/room-10.jpeg";
-// import img11 from "./images/room-11.jpeg";
-// import img12 from "./images/room-12.jpeg";
-
-/////////////////////
-
-// import room1 from "./External/house-images/house13.jpg";
-// import room2 from "./images/details-2.jpeg";
-// import room3 from "./images/details-3.jpeg";
-// import room4 from "./images/details-4.jpeg";
-// import img1 from "./External/house-images/house.jpg";
-// import img2 from "./External/house-images/house2.jpg";
-// import img3 from "./External/house-images/house3.jpg";
-// import img4 from "./External/house-images/house4.jpg";
-// import img5 from "./External/house-images/house5.jpg";
-// import img6 from "./External/house-images/house6.jpg";
-// import img7 from "./External/house-images/house7.jpg";
-// import img8 from "./External/house-images/house8.jpg";
-// import img9 from "./External/house-images/house9.jpg";
-// import img10 from "./External/house-images/house10.jpg";
-// import img11 from "./External/house-images/house11.jpg";
-// import img12 from "./External/house-images/house12.jpg";
-// import img13 from "./External/house-images/house13.jpg";
-
-////////////
-
 import room1 from "./External/house-images/house13.jpg";
 import room2 from "./images/details-2.jpeg";
 import room3 from "./images/details-3.jpeg";
@@ -93,7 +54,6 @@ export default [
       improvements: "$374,544",
       total: "$1,248,480",
       nameR: "Alexander Mulder",
-      // imgR: "./External/RealtorImage/alexander.jpg",
       imgR: imgR1,
       mobileNum: "(415) 595-7661",
       licenseNum: "#02014153",

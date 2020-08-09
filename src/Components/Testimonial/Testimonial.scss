@@ -4,7 +4,6 @@
 
   .testimonial-img {
     img {
-      // width: 50rem;
       width: 30vw;
       border-radius: 25rem 25rem 0rem 25rem;
       flex: 1;
@@ -13,19 +12,17 @@
 
   .testimonial-content--box {
     flex: 1;
-    margin-left: 10rem; //
+    margin-left: 10rem;
     margin-top: 10rem;
     padding-bottom: 10rem;
 
     .testimonial-icon {
       img {
-        // width: 30rem;
         width: 18vw;
       }
     }
 
     .testimonial-description {
-      // width: 50rem;
       width: 28.5vw;
       font-family: Rubik;
       font-weight: 500;
@@ -51,13 +48,11 @@
     flex-direction: column;
     justify-content: center;
     .testimonial-img img {
-      // width: 50rem;
       width: 50vw;
     }
     .testimonial-content--box {
-      margin-left: 0rem; //
+      margin-left: 0rem;
       .testimonial-description {
-        // width: 50rem;
         width: 50vw;
         font-size: 2.5rem;
         text-align: center;

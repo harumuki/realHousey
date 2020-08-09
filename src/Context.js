@@ -53,15 +53,6 @@ class HouseProvider extends Component {
     return house;
   };
 
-  // If you don't have a chackbox
-  // handleChange = (event) => {
-  //   const type = event.target.type;
-  //   const name = event.target.name;
-  //   const value = event.target.value;
-  //   console.log(`type: ${type}, name: ${name}, value: ${value}`);
-  // };
-
-  // If there is gonna be a chackbox
   handleChange = (event) => {
     const target = event.target;
     const value = target.type === "checkbox" ? target.checked : target.value;
@@ -86,13 +77,11 @@ class HouseProvider extends Component {
       maxSqftNum,
     } = this.state;
 
-    // All the houses
     let tempHouses = [...houses];
     // Transform value
     beds = parseInt(beds);
     baths = parseInt(baths);
     priceNum = parseInt(priceNum);
-    // SqftNum = parseInt(SqftNum);
 
     // filter by type
     if (type !== "all") {

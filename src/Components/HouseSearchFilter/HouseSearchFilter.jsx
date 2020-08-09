@@ -2,11 +2,11 @@ import React from "react";
 import { useContext } from "react";
 
 import "./HouseSearchFilter.scss";
+import "./HouseSearchFilter.scss";
 import { HouseContext } from "../../Context";
 import Heading from "../Heading/Heading";
 import Content from "../Content-Container/Content";
 
-// get all unique values
 const getUnique = (items, value) => {
   return [...new Set(items.map((item) => item[value]))];
 };
@@ -76,87 +76,114 @@ const HouseSearchFilter = ({ houses }) => {
     <section>
       {/* <Heading>Search Houses</Heading> */}
       <Content heading1="Search" heading2="Search Houses" mTop="yes" />
-      <form action="">
-        {/* select type */}
-        <div className="house-search-filter-container">
-          <label htmlFor="type">House Type</label>
-          <select name="type" id="type" value={type} onChange={handleChange}>
-            {types}
-          </select>
-        </div>
-        {/* end select type */}
-        {/* select usState */}
-        <div className="house-search-filter-container">
-          <label htmlFor="usState">House State</label>
-          <select
-            name="usState"
-            id="usState"
-            value={usState}
-            onChange={handleChange}
-          >
-            {usStates}
-          </select>
-        </div>
-        {/* end select usState */}
-        {/* select beds */}
-        <div className="house-search-filter-container">
-          <label htmlFor="beds">House Beds</label>
-          <select name="beds" id="beds" value={beds} onChange={handleChange}>
-            {cushan}
-          </select>
-        </div>
-        {/* end select beds */}
-        {/* select beds */}
-        <div className="house-search-filter-container">
-          <label htmlFor="baths">House Baths</label>
-          <select name="baths" id="baths" value={baths} onChange={handleChange}>
-            {tol}
-          </select>
-        </div>
-        {/* end select beds */}
-        {/* select priceNum */}
-        <div className="house-search-filter-container">
-          <label htmlFor="priceNum">House Price ${priceNum}</label>
-          <input
-            type="range"
-            name="priceNum"
-            min={minPriceNum}
-            max={maxPriceNum}
-            id="priceNum"
-            value={priceNum}
-            onChange={handleChange}
-            className=""
-          />
-        </div>
-        {/* end select priceNum */}
-        {/* SqftNum */}
-        <div className="">
-          <label htmlFor="SqftNum">House Sqft</label>
-          <div className="">
-            <input
-              type="number"
-              name="minSqftNum"
-              id="SqftNum"
-              value={minSqftNum}
-              onChange={handleChange}
-              className=""
-            />
-            <input
-              type="number"
-              name="maxSqftNum"
-              id="SqftNum"
-              value={maxSqftNum}
-              onChange={handleChange}
-              className=""
-            />
+      <form action="" className="search-box">
+        <div action="" className="search-box-inner">
+          {/* select type */}
+          <div className="house-search-filter-container">
+            <label htmlFor="type">House Type</label>
+            <div className="select">
+              <select
+                name="type"
+                id="type slt-1"
+                value={type}
+                onChange={handleChange}
+              >
+                {types}
+              </select>
+            </div>
           </div>
-        </div>
-        {/* end SqftNum */}
-        {/*ChackBox */}
-        {/* <div className="">
+          {/* end select type */}
+          {/* select usState */}
+          <div className="house-search-filter-container">
+            <label htmlFor="usState">House State</label>
+            <div className="select">
+              <select
+                name="usState"
+                id="usState"
+                value={usState}
+                onChange={handleChange}
+              >
+                {usStates}
+              </select>
+            </div>
+          </div>
+          {/* end select usState */}
+          {/* select beds */}
+          <div className="house-search-filter-container">
+            <label htmlFor="beds">House Beds</label>
+            <div className="select">
+              <select
+                name="beds"
+                id="beds"
+                value={beds}
+                onChange={handleChange}
+              >
+                {cushan}
+              </select>
+            </div>
+          </div>
+          {/* end select beds */}
+          {/* select beds */}
+          <div className="house-search-filter-container">
+            <label htmlFor="baths">House Baths</label>
+            <div className="select">
+              <select
+                name="baths"
+                id="baths"
+                value={baths}
+                onChange={handleChange}
+              >
+                {tol}
+              </select>
+            </div>
+          </div>
+          {/* end select beds */}
+          {/* select priceNum */}
+          <div className="house-search-filter-container">
+            <label htmlFor="priceNum">House Price ${priceNum}</label>
+            {/* <div className="select"> */}
+            <input
+              type="range"
+              name="priceNum"
+              min={minPriceNum}
+              max={maxPriceNum}
+              id="priceNum"
+              value={priceNum}
+              onChange={handleChange}
+              className="slider-range"
+            />
+            {/* </div> */}
+          </div>
+          {/* end select priceNum */}
+          {/* SqftNum */}
+          <div className="house-search-filter-container">
+            <label htmlFor="SqftNum">House Sqft</label>
+            <div className="">
+              <input
+                type="number"
+                name="minSqftNum"
+                id="SqftNum"
+                value={minSqftNum}
+                onChange={handleChange}
+                className="input-num-1"
+              />
+              <input
+                type="number"
+                name="maxSqftNum"
+                id="SqftNum"
+                value={maxSqftNum}
+                onChange={handleChange}
+                className=""
+              />
+            </div>
+          </div>
+          {/* end SqftNum */}
+          {/*ChackBox */}
+          {/* <div className="">
           <input type="chackbox" name="breakfast" id="breack" />
         </div> */}
-        {/* end ChackBox */}
+          {/* end ChackBox */}
+        </div>
       </form>
     </section>
   );

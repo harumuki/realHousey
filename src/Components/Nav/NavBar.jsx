@@ -5,11 +5,10 @@ import "./NavBar.scss";
 import Button from "../Button/Button";
 
 export default class Navbar extends Component {
-  // {this.state.isOpen ? "burger open-burger": "burger"}
-
   state = {
     isOpen: false,
   };
+
   handleToggle = () => {
     this.setState({ isOpen: !this.state.isOpen });
   };

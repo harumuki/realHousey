@@ -2,7 +2,6 @@ import React from "react";
 import "./ContactDetailsCard.scss";
 
 import Heading from "../Heading/Heading";
-// import table from "../../External/icons/table.svg";
 
 const ContactDetailsCard = ({
   name,
@@ -12,7 +11,6 @@ const ContactDetailsCard = ({
   email,
   description,
 }) => {
-  // console.log(img);
   return (
     <div className="contact-details-card-boxx">
       <div className="contact-details-box">
@@ -24,7 +22,6 @@ const ContactDetailsCard = ({
         </div>
         <div className="contact-details-name">
           <img src={`${img}`} alt="Realtor-Image" />
-          {/* <img src={require(`${img}`)} alt="Realtor-Image" /> */}
           <h3>{name}</h3>
         </div>
         <div className="contact-details-info">

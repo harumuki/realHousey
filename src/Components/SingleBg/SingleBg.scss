@@ -44,44 +44,18 @@
     }
   }
 
-  // .popup-click {
-  //   position: relative;
-  //   top: -50rem;
-  //   left: 130rem;
-  //   width: 35rem;
-  //   height: 33rem;
-  //   background-color: blueviolet;
-  //   z-index: 9;
-  // }
   .parallaxx__box {
-    // position: relative;
     position: absolute;
     top: 80rem;
     height: 400rem;
     font-size: 4rem;
     width: 100%;
-    // background: #e7eef6;
     background: #d3e2f2;
-    // z-index: -1; // Problem
-    // z-index: -1; // Problem
 
-    .parallaxx__card {
-      // position: relative;
-      // position: absolute;
-      // top: 62rem;
-      // left: 0;
-      // z-index: 10;
-    }
     h2 {
       position: relative;
       top: 45%;
       left: 0;
-    }
-    .parallaxx__card-2 {
-      // position: relative;
-      // position: absolute;
-      // top: 0rem;
-      // z-index: 2;
     }
   }
 }
@@ -113,30 +87,3 @@
     top: 70rem;
   }
 }
-// @media screen and (max-width: 1366px) {
-//   // 1366
-//   .parallaxx__imagee .parallaxx__box .parallaxx__card-2 {
-//     top: 750rem;
-//   }
-// }
-
-// @media screen and (max-width: 1570px) {
-//   .parallaxx__imagee .parallaxx__box .parallaxx__card-2 {
-//     top: 100rem;
-//   }
-// }
-// @media screen and (max-width: 820px) {
-//   .parallaxx__imagee .parallaxx__box .parallaxx__card-2 {
-//     top: 70rem;
-//   }
-// }
-// @media screen and (max-width: 769px) {
-//   .parallaxx__imagee .parallaxx__box .parallaxx__card-2 {
-//     top: 50rem;
-//   }
-// }
-// @media screen and (max-width: 370px) {
-//   .parallaxx__imagee .parallaxx__box .parallaxx__card-2 {
-//     top: 4rem;
-//   }
-// }

@@ -1,16 +1,11 @@
 .table-card-boxx {
-  // height: 100rem;
-  // width: 100%;
-  // background: #d3e2f2;
   .table-card-box {
     width: 53.2rem;
     height: 65.5rem;
     padding: 9rem 4.2rem 0rem 4rem;
     background: rgba(235, 244, 254, 0.34);
-    // background: #ebf4fe;
     box-shadow: 15px 15px 14px rgba(0, 0, 0, 0.05);
     border-radius: 4.4rem;
-    // margin: 10rem 10rem 10rem 10rem; //
 
     .table-card-box-inner {
       display: flex;
@@ -26,8 +21,6 @@
         -moz-border-radius: 25px;
         -webkit-border-radius: 25px;
         border-radius: 25px;
-        // overflow: hidden;
-        // border-collapse: separate !important;
       }
       table,
       th,

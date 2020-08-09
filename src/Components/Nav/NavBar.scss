@@ -2,7 +2,6 @@ header {
   display: flex;
   width: 90%;
   margin: auto;
-  // height: 12vh;
   height: 10.5rem;
   align-items: center;
   margin-top: 0.7rem;
@@ -64,7 +63,6 @@ header {
   }
   .button {
     display: none;
-    // flex: 1;
     .btn2 {
       display: none;
     }
@@ -76,7 +74,6 @@ header {
     position: absolute;
     top: 0rem;
     left: 0rem;
-    // margin-right: 0rem;
     background-color: #346ee2;
     display: flex;
     flex-direction: column;
@@ -132,7 +129,7 @@ header {
     .line {
       width: 2.5rem;
       height: 0.3rem;
-      background-color: #494646; // #494646
+      background-color: #494646;
       margin-bottom: 0.5rem;
     }
   }
@@ -141,7 +138,7 @@ header {
     div {
       width: 2.5rem;
       height: 0.3rem;
-      background-color: #494646; // #494646
+      background-color: #494646;
       margin-bottom: 0.5rem;
       transform-origin: 1px;
       transition: all 0.3s linear;

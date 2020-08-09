@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Switch, Route } from "react-router-dom";
 
-// import { HouseContext } from "./Context";
 import Home from "./Pages/Home/Home";
 import "./App.scss";
 import NavBar from "./Components/Nav/NavBar";
@@ -14,30 +13,7 @@ import Error from "./Components/Error/Error";
 import SingleHouse from "./Pages/SingleHouse/SingleHouse";
 
 export default class App extends Component {
-  // static contextType = HouseContext;
   render() {
-    // let { houses } = this.context;
-
-    // houses = houses.map((house) => {
-    //   let usState = house.usState;
-    //   let id = house.id;
-    //   let type = house.type;
-    //   let allPros = { usState, id, type };
-
-    //   // console.log(usState);
-    //   return (
-    //     <Switch>
-    //       <Route
-    //         path={`/${usState}/houses/${type}-${id}`}
-    //         component={SingleHouse}
-    //       />
-    //     </Switch>
-    //   );
-    // });
-    // console.log(houses);
-
-    /////////////
-
     return (
       <div>
         <NavBar />
@@ -56,5 +32,3 @@ export default class App extends Component {
     );
   }
 }
-
-// export default App;

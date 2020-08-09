@@ -4,7 +4,6 @@ import { render } from "react-dom";
 
 import "./SingleBg.scss";
 import { HouseContext } from "../../Context";
-// import { Link } from "react-scripts";
 import ImageGallary from "../ImageGallary/ImageGallary";
 
 import img1 from "../../External/house-images/house11.jpg";
@@ -43,8 +42,6 @@ const SingleBg = ({ img, house }) => {
               img4={img5}
             />
           </div>
-          {/* <div className="popup-click" onChange={item => console.log("popup-clicked")}></div> */}
-          {/* <div className="parallaxx---box-2">  */}
           <div className="parallaxx__card-2">
             <ParallaxCard house={house} />
           </div>

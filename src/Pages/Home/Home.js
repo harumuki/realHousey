@@ -11,14 +11,8 @@ import Testimonials from "../Testimonials/Testimonials";
 import Footer from "../../Components/Footer/Footer";
 import ImageGallary from "../../Components/ImageGallary/ImageGallary";
 
-// import img1 from "../../External/house-images/house11.jpg";
-// import img2 from "../../External/house-images/house2.jpg";
-// import img3 from "../../External/house-images/house3.jpg";
-// import img4 from "../../External/house-images/house4.jpg";
-// import img5 from "../../External/house-images/house5.jpg";
 import InnerCard from "../../Components/InnerCard/InnerCard";
 import ParallaxCard from "../../Components/ParallaxCard/ParallaxCard";
-import imgPopup from "../../Components/imgPopup/imgPopup";
 
 function Home() {
   return (
@@ -30,7 +24,7 @@ function Home() {
         <Works />
         <Cards />
         <RecentListItem />
-        <imgPopup />
+        {/* <ImageGallary /> */}
         <Testimonials />
       </div>
       <div className="home-footer">
