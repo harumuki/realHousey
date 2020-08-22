@@ -12,7 +12,7 @@ const Footer = () => {
     <div className="footer-container">
       <div className="footer-main-content">
         <div className="footer-main-link">
-          <h2>realAbode</h2>
+          <h2>realHousey</h2>
         </div>
         <div className="footer-side-links">
           <div className="footer-location">
@@ -132,7 +132,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className="copyright">© 2020 RealAbode, Inc.</div>
+      <div className="copyright">© 2020 realHousey, Inc.</div>
     </div>
   );
 };

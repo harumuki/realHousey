@@ -16,6 +16,7 @@ import ParallaxCard from "../ParallaxCard/ParallaxCard";
 
 const SingleBg = ({ img, house }) => {
   const { name, haffStartAddress, haffEndAddress, images } = house;
+  // console.log(house);
   return (
     <div className="nav-background-color-Container">
       <div className="nav-background-color"></div>
@@ -36,10 +37,10 @@ const SingleBg = ({ img, house }) => {
           <div className="parallaxx__card">
             <ImageGallary
               mainImage={images[0]}
-              img1={img2}
-              img2={img3}
-              img3={img4}
-              img4={img5}
+              img1={images[1]}
+              img2={images[2]}
+              img3={images[3]}
+              img4={images[4]}
             />
             <div className="parallaxx__card-2">
               <ParallaxCard house={house} />

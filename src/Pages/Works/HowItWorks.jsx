@@ -10,7 +10,7 @@ const HowItWorks = () => {
         heading1="Works"
         heading2="How It Works"
         para="
-Our extensive network in the global real estate market allows us to locate the best properties for investment."
+        Our to-the-minute database lets you search for your dream home. Then we’ll connect you to one of our top local agents who’ll help make your real estate dreams a reality."
       />
     </div>
   );

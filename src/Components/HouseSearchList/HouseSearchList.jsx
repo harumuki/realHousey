@@ -16,6 +16,7 @@ const HouseSearchList = ({ houses }) => {
 
   return (
     <div className="list-item-boxx">
+      {/* flex wrap */}
       <div className="list-item--box">
         {houses.map((item) => {
           return <Houses key={item.id} house={item} />;

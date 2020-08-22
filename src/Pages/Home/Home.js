@@ -10,6 +10,7 @@ import RecentListItem from "../RecentListItem/RecentListItem";
 import Testimonials from "../Testimonials/Testimonials";
 import Footer from "../../Components/Footer/Footer";
 import ImageGallary from "../../Components/ImageGallary/ImageGallary";
+// import ContectCard from "../../Components/ContectCard/ContectCard";
 
 function Home() {
   return (
@@ -22,6 +23,7 @@ function Home() {
         <Cards />
         <RecentListItem />
         <Testimonials />
+        {/* <ContectCard /> */}
       </div>
       <div className="home-footer">
         <Footer />

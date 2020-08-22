@@ -3,8 +3,8 @@ import "./ParallaxCard.scss";
 import TableCard from "../TableCard/TableCard";
 import ContactDetailsCard from "../ContactDetailsCard/ContactDetailsCard";
 import InnerCard from "../InnerCard/InnerCard";
-import { HouseContext } from "../../Context";
-import img from "../../External/house-images/house2.jpg";
+// import { HouseContext } from "../../Context";
+// import img from "../../External/house-images/house2.jpg";
 
 const ParallaxCard = ({ house }) => {
   const {
