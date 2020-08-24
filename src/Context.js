@@ -1,5 +1,9 @@
 import React, { Component } from "react";
-import items from "./data";
+import Client from "./Contentful";
+// import items from "./data";
+// Client.getEntries({
+//   content_type: "realHousey",
+// }).then((response) => console.log(response.items));
 
 const HouseContext = React.createContext();
 
@@ -20,28 +24,43 @@ class HouseProvider extends Component {
     maxSqftNum: 0,
   };
 
-  componentDidMount() {
-    let houses = this.formatData(items);
-    let featuredHouses = houses.filter((house) => house.featured === true);
-    let maxPriceNum = Math.max(...houses.map((item) => item.priceNum));
-    let maxSqftNum = Math.max(...houses.map((item) => item.SqftNum));
+  // getDate
+  getData = async () => {
+    try {
+      let response = await Client.getEntries({
+        content_type: "realHousey",
+        // order: "sys.createdAt",
+        order: "fields.priceNum",
+      });
+      let houses = this.formatData(response.items);
+      let featuredHouses = houses.filter((house) => house.featured === true);
+      let maxPriceNum = Math.max(...houses.map((item) => item.priceNum));
+      let maxSqftNum = Math.max(...houses.map((item) => item.SqftNum));
 
-    this.setState({
-      houses,
-      featuredHouses,
-      sortedHouses: houses,
-      loading: false,
-      priceNum: maxPriceNum,
-      maxPriceNum,
-      maxSqftNum,
-    });
+      this.setState({
+        houses,
+        featuredHouses,
+        sortedHouses: houses,
+        loading: false,
+        priceNum: maxPriceNum,
+        maxPriceNum,
+        maxSqftNum,
+      });
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  componentDidMount() {
+    this.getData();
   }
 
   formatData(items) {
     let tempItems = items.map((item) => {
       let id = item.sys.id;
       let images = item.fields.images.map((image) => image.fields.file.url);
-      let house = { ...item.fields, images, id };
+      let imgR = item.fields.imgR.fields.file.url;
+      let house = { ...item.fields, images, id, imgR };
       return house;
     });
     return tempItems;

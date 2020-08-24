@@ -198,13 +198,13 @@ import imgR1 from "./External/RealtorImage/alexander.jpg";
 import imgR2 from "./External/RealtorImage/danielle.jpg";
 import imgR3 from "./External/RealtorImage/maureen.jpg";
 import imgR4 from "./External/RealtorImage/ron.jpg";
-import imgR5 from "./External/RealtorImage/trang.PNG";
+import imgR5 from "./External/RealtorImage/trang.jpg";
 import imgR6 from "./External/RealtorImage/jason.jpg";
 import imgR7 from "./External/RealtorImage/lauren.jpg";
-import imgR8 from "./External/RealtorImage/andrew.PNG";
+import imgR8 from "./External/RealtorImage/andrew.jpg";
 import imgR9 from "./External/RealtorImage/alek.jpg";
 import imgR10 from "./External/RealtorImage/jessica.jpg";
-import imgR11 from "./External/RealtorImage/alana.PNG";
+import imgR11 from "./External/RealtorImage/alana.jpg";
 import imgR12 from "./External/RealtorImage/joel.jpg";
 import imgR13 from "./External/RealtorImage/cynthia.jpg";
 
@@ -567,7 +567,7 @@ export default [
       total: "$536,764",
       nameR: "Trang Dunlap",
       imgR: imgR5,
-      mobileNum: "(510) 651-6500",
+      mobileNum: "(415) 692-3651",
       licenseNum: "#01712941",
       email: "trang.realabode@gmail.com",
       description:
@@ -637,8 +637,8 @@ export default [
       name: "windowed house",
       slug: "windowed-6",
       type: "Windowed",
-      address: "27 Payday Dr, Park City, UT 84060",
-      haffStartAddress: "27 Payday Dr, Park City",
+      address: "34 Payday Dr, Park City, UT 84060",
+      haffStartAddress: "34 Payday Dr, Park City",
       haffEndAddress: "Park City, UT 84060",
       usState: "Utah",
       price: "$980,756",
@@ -806,20 +806,20 @@ export default [
       slug: "duplex-8",
       type: "Duplex",
       address: "1498 N Belmont Ave, Washington, UT 84780",
-      usState: "Utah",
       haffStartAddress: "1498 N Belmont Ave, Washington",
       haffEndAddress: "Washington, UT 84780",
+      usState: "Utah",
       price: "$1.4M",
       priceNum: 1400000,
       mo: "Est. Mortgage $6,270/mo",
       year: "2019",
       tax: "$17,579",
       land: "$1,000,012",
-      improvements: "$$428,576",
+      improvements: "$428,576",
       total: "$1,428,588",
       nameR: "Andrew Herrera",
       imgR: imgR8,
-      mobileNum: "(415) 664-9400",
+      mobileNum: "(415) 564-9777",
       licenseNum: "#01199229",
       email: "andrew.realabode@gmail.com",
       description:
@@ -983,7 +983,7 @@ export default [
       year: "2019",
       tax: "	$8,760",
       land: "$412,953",
-      improvements: "	$275,299",
+      improvements: "$275,299",
       total: "$688,252",
       nameR: "Jessica Rucker",
       imgR: imgR10,
@@ -1058,9 +1058,9 @@ export default [
       slug: "Scandinavian-11",
       type: "Scandinavian",
       address: "3701 Potrero Dr, Fullerton, CA 92835",
-      usState: "California",
       haffStartAddress: "3701 Potrero Dr, Fullerton",
       haffEndAddress: "Fullerton, CA 92835",
+      usState: "California",
       price: "$2M",
       priceNum: 2000000,
       mo: "Est. Mortgage $10,358/mo",
@@ -1149,7 +1149,7 @@ export default [
       priceNum: 1900000,
       mo: "Est. Mortgage $7,830/mo",
       year: "2019",
-      tax: "$$30,515",
+      tax: "$30,515",
       land: "$1,769,252",
       improvements: "$758,250",
       total: "$2,527,502",
